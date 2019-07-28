@@ -1,0 +1,32 @@
+{
+    "name": "devtojo/calculator",
+    "description": "This demo package will do some calculations",
+    "type": "no",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruchama and Tami",
+            "email": "tami45044@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devtojo\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Devtojo\\Calculator\\": "src/"
+        }
+    },
+    /*dfdsf*/
+}
